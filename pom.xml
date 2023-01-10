@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.sercasti</groupId>
-    <artifactId>spring-httpserver-timings</artifactId>
-    <version>0.0.7</version>
+    <artifactId>spring-httpserver-timings-java17</artifactId>
+    <version>0.0.8</version>
     <packaging>jar</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
-    <description>A Spring Boot library to use as a dependency and generate tracing information available as a response header.</description>
-    <url>https://github.com/sercasti/spring-httpserver-timings</url>
+    <description>A Spring Boot 3 library to use as a dependency and generate tracing information available as a response header.</description>
+    <url>https://github.com/sercasti/spring-httpserver-timings-java17</url>
 
     <licenses>
         <license>
@@ -38,9 +38,9 @@
     </contributors>
 
     <scm>
-        <connection>scm:git:git://github.com/sercasti/spring-httpserver-timings.git</connection>
-        <developerConnection>scm:git:ssh://github.com:sercasti/spring-httpserver-timings.git</developerConnection>
-        <url>http://github.com/sercasti/spring-httpserver-timings/tree/master</url>
+        <connection>scm:git:git://github.com/sercasti/spring-httpserver-timings-java17.git</connection>
+        <developerConnection>scm:git:ssh://github.com:sercasti/spring-httpserver-timings-java17.git</developerConnection>
+        <url>http://github.com/sercasti/spring-httpserver-timings-java17/tree/master</url>
     </scm>
 
     <distributionManagement>
@@ -57,13 +57,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.4</version>
+        <version>3.0.1</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
+        <java.version>17</java.version>
     </properties>
 
     <dependencies>
