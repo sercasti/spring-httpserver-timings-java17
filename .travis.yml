@@ -6,5 +6,5 @@ jdk:
 
 ## export GPG details
 before_install:
-    - echo $GPG_SECRET_KEYS | base64 --decode | $GPG_EXECUTABLE --import
+    - echo $GPG_SECRET_KEYS | base64 --decode | $GPG_EXECUTABLE --import --no-tty --batch --yes
     - echo $GPG_OWNERTRUST | base64 --decode | $GPG_EXECUTABLE --import-ownertrust
