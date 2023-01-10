@@ -3,7 +3,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/sercasti/spring-httpserver-timings/graphs/commit-activity)
 
 
-# HTTP Server Timings library for Spring Boot projects
+# HTTP Server Timings library for Spring Boot 3 projects - Java 17 compatible
 
 This library is based on the HTTP Server Timings spec, which you can find here: https://www.w3.org/TR/server-timing/. The main idea is to be able to determine if any slow downs, bottlenecks or unexpected application issues happened for a request just by looking at the Network Tab on the browser, without the need to look at console logs or installing any tools.
 
@@ -17,7 +17,7 @@ This library is based on the HTTP Server Timings spec, which you can find here: 
         <dependency>
             <groupId>io.github.sercasti</groupId>
             <artifactId>spring-httpserver-timings</artifactId>
-            <version>0.0.7</version>
+            <version>0.0.8</version>
         </dependency>
 ```
   
