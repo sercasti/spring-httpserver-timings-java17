@@ -17,7 +17,7 @@ This library is based on the HTTP Server Timings spec, which you can find here: 
         <dependency>
             <groupId>io.github.sercasti</groupId>
             <artifactId>spring-httpserver-timings-java17</artifactId>
-            <version>0.0.8</version>
+            <version>0.0.1</version>
         </dependency>
 ```
   
